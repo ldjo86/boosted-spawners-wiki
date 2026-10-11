@@ -1,27 +1,33 @@
-# Boosted Spawners — 50 Block Activation — Fonctionnement
+# Boosted Spawners — 50 Block Activation — Guide pratique
 
-Datapack proposé pour augmenter la portée des générateurs de créatures et intensifier les vagues.
+Un datapack conçu pour modifier l'activité des générateurs de créatures, avec une portée d'activation **annoncée** jusqu'à 50 blocs et des vagues plus intenses.
 
-### 1. Activation jusqu'à 50 blocs annoncée par l'auteur
+**Version concernée :** spawns_50blocs_optimise.zip (version annoncée).
 
-Activation jusqu'à 50 blocs annoncée par l'auteur.
+## 1. Installer avant de modifier une farm
 
-### 2. Davantage de créatures par vague et difficulté augmentée, selon la présentation
+Commence par faire une copie de ton monde. Installe le ZIP du datapack dans `datapacks/`, recharge avec `/reload` puis utilise `/datapack list` pour vérifier qu'il est présent.
 
-Davantage de créatures par vague et difficulté augmentée, selon la présentation.
+## 2. Tester la distance d'activation
 
-### 3. Aucun mod externe annoncé comme nécessaire
+Sur un monde de test, place-toi à différentes distances du même spawner et observe son comportement. La **portée annoncée de 50 blocs** doit être considérée comme une information de la fiche CurseForge, pas comme une mesure que nous avons déjà reproduite.
 
-Aucun mod externe annoncé comme nécessaire.
+## 3. Surveiller les performances
 
-### 4. Ces comportements ne sont pas encore validés par un audit du ZIP
+Les vagues plus importantes annoncées peuvent accroître le nombre d'entités dans une zone. Vérifie la fluidité du serveur avant d'utiliser ce datapack près de plusieurs farms ou d'une base active.
 
-Ces comportements ne sont pas encore validés par un audit du ZIP.
+## 4. Concevoir un donjon ou une farm
 
-## Points à contrôler
+Si les fonctions annoncées se confirment, ce datapack peut changer la distance à laquelle il faut se tenir pour qu'un spawner fonctionne. Teste tes installations existantes avant de les reconstruire.
 
-Page CurseForge consultée ; le ZIP local n'a pas été retrouvé. Les 50 blocs sont une annonce, pas une vérification indépendante.
+## Checklist avant de commencer
 
-Les seuils, recettes, identifiants et comportements non explicitement mentionnés ne sont pas inventés.
+- [ ] Télécharge le ZIP sur CurseForge et conserve une sauvegarde du monde.
+- [ ] Place-le dans `datapacks/`, exécute `/reload` et vérifie `/datapack list`.
+- [ ] Teste séparément la distance du spawner et le nombre de créatures avant de l'utiliser en survie principale.
 
-[Retour au sommaire](../README.md)
+## Fiabilité des informations
+
+Le ZIP `spawns_50blocs_optimise.zip` n'a pas été retrouvé dans les emplacements locaux examinés. La distance de 50 blocs et l'intensification des vagues sont **annoncées par l'auteur**, et non prouvées par notre analyse technique.
+
+[Retour au wiki](../README.md) · [CurseForge](https://www.curseforge.com/minecraft/data-packs/boosted-spawners-50-block-activation)
